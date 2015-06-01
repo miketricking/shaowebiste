@@ -1,0 +1,37 @@
+/* custom css */
+
+/*
+.dropdown .dropdown-menu{
+    display: block;
+    opacity: 0;
+
+    -moz-transition:    all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -o-transition:      all 500ms ease;
+    -ms-transition:     all 500ms ease;
+    transition:         all 500ms ease;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+*/
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover  {
+color: #fff;
+background-color: transparent;
+}
+
+ul.dropdown-menu {
+border-color: #e7e7e7;
+-webkit-box-shadow: 0 0px rgba(0,0,0,0);
+  box-shadow: 0 0px rgba(0,0,0,0);
+}
+
