@@ -29,9 +29,36 @@ color: #fff;
 background-color: transparent;
 }
 
-ul.dropdown-menu {
+.dropdown-menu {
 border-color: #e7e7e7;
 -webkit-box-shadow: 0 0px rgba(0,0,0,0);
   box-shadow: 0 0px rgba(0,0,0,0);
 }
 
+.dropdown-menu li a:hover {
+background-color: #fff;
+}
+
+#allheaders {
+min-height: 220px;
+}
+
+.header-all{
+top:65%!important;
+}
+
+.halfpad {
+padding-top:60px;
+}
+
+.hrpad {
+padding-bottom: 40px;
+}
+
+#contact {
+  background-image: url(images/image2.jpg);
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  }
