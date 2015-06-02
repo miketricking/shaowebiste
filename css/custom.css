@@ -55,10 +55,34 @@ padding-top:60px;
 padding-bottom: 40px;
 }
 
-#contact {
-  background-image: url(images/image2.jpg);
-  background-position: top;
+ footer {
+	padding:100px 0px;
+  background-image: url(../images/bbblur.jpg);
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  }
+  
+ #footertext {
+ font-size: 10px;
+ padding: 12px 0px;
+ margin: 0px;
+ }
+ 
+ .stbg {
+ background: rgba(0,0,0,0.5);
+ }
+
+  #about {
+	padding:100px 0px;
+  background-image: url(../images/bbblur.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
   }
