@@ -40,11 +40,11 @@ background-color: #fff;
 }
 
 #allheaders {
-min-height: 220px;
+min-height: 250px;
 }
 
 .header-all{
-top:65%!important;
+top:60%!important;
 }
 
 .halfpad {
@@ -77,12 +77,12 @@ padding-bottom: 40px;
  }
  
  .stbg {
- background: rgba(0,0,0,0.5);
+ background: rgba(0,0,0,0.3);
  }
 
   #about {
-	padding:100px 0px;
-  background-image: url(../images/bbblur.jpg);
+	padding:60px 0px;
+  background-image: url(../images/im3.jpg);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -106,3 +106,18 @@ padding-bottom: 40px;
  .minpad {
   padding: 20px 0px 70px 0px;
    }
+   
+ footer, #tabs, #people {
+ padding: 60px;
+ }
+ 
+.caption p{
+font-size:14px;
+line-height: 1.4;
+}
+ 
+ .thumbnail img {
+ height: 150px;
+ margin-top: 25px;
+ }
+ 
