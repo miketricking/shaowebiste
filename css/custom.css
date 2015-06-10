@@ -70,9 +70,17 @@ padding-bottom: 40px;
   background-attachment: fixed;
   }
   
- #footertext {
+ #footertext  {
  font-size: 10px;
- padding: 12px 0px;
+ padding: 15px 0px;
+ margin: 0px;
+ float: left;
+ }
+ 
+ #footright {
+ font-size: 10px;
+ float: right;
+ padding: 15px 0px;
  margin: 0px;
  }
  
@@ -125,4 +133,14 @@ line-height: 1.4;
 width: 50px;
 float: left;
 margin-top: -14px;
+}
+
+.header-content-inner  h1, .header-content-inner  p  {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#footright img {
+width: 100px;
+background-color:white;
 }
