@@ -108,7 +108,7 @@ padding-bottom: 40px;
    }
    
  footer, #tabs, #people {
- padding: 60px;
+ padding: 60px 0px;
  }
  
 .caption p{
@@ -121,3 +121,8 @@ line-height: 1.4;
  margin-top: 25px;
  }
  
+#logo {
+width: 50px;
+float: left;
+margin-top: -14px;
+}
