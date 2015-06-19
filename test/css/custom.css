@@ -85,7 +85,7 @@ padding-bottom: 40px;
  }
  
  .stbg {
- background: rgba(0,0,0,0.3);
+ background: rgba(0,0,0,0.5);
  }
 
   #about {
@@ -123,6 +123,7 @@ padding-bottom: 40px;
 font-size:14px;
 line-height: 1.4;
 }
+
  
  .thumbnail img {
  height: 150px;
@@ -138,9 +139,14 @@ margin-top: -14px;
 .header-content-inner  h1, .header-content-inner  p  {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px;
 }
 
 #footright img {
 width: 100px;
 background-color:white;
+}
+
+#timetable {
+background-color: rgba(0, 0, 0, 0.4);
 }
