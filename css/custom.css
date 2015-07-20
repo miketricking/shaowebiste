@@ -172,6 +172,27 @@ font-size: 14px;
 font-size: 14px;
 }
 
+object {
+height: 600px;
+}
+
+.m3m .thumbnail {
+transition: all 0.5s;
+}
+
+.m3m  p{
+text-decoration: underline;
+color: #f05f40;
+}
+
+.m3m:hover p{
+text-decoration: none;
+}
+
+.m3m:hover  .thumbnail {
+background-color: rgba(10,10,0,0.1);
+}
+
 /* style for the m3mb3ers section stance guide timeline */
 
 .timeline {
