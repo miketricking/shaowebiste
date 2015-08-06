@@ -7,12 +7,7 @@ module.exports = function(grunt) {
      concat: {   
     dist: {
         src: [
-            'src/js/*.js', // All JS files
-        ],
-        dest: 'src/js/production.js',
-		
-		src: [
-            'src/css/*.css', // All CSS files
+            'src/css/*.css', // All JS files
         ],
         dest: 'src/css/allcss.css',
     }
@@ -33,7 +28,7 @@ imagemin: {
     dynamic: {
         files: [{
             expand: true,
-            cwd: 'src/images/*',
+            cwd: 'src/images/',
             src: ['**/*.{png,jpg,gif}'],
             dest: 'dist/images'
         }]
@@ -64,10 +59,8 @@ imagemin: {
     grunt.loadNpmTasks('grunt-contrib-uglify');
 	
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	
-	grunt.loadNpmTasks('grunt-autoprefixer');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-	grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'autoprefixer','cssmin']);
+	grunt.registerTask('default', ['concat', 'uglify', 'imagemin','cssmin']);
 
 };

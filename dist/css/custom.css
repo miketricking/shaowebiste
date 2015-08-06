@@ -1,0 +1,455 @@
+/* custom css */
+
+/*
+.dropdown .dropdown-menu{
+    display: block;
+    opacity: 0;
+
+    -moz-transition:    all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -o-transition:      all 500ms ease;
+    -ms-transition:     all 500ms ease;
+    transition:         all 500ms ease;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+*/
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover  {
+color: #fff;
+background-color: transparent;
+}
+
+.dropdown-menu {
+border-color: #e7e7e7;
+-webkit-box-shadow: 0 0px rgba(0,0,0,0);
+  box-shadow: 0 0px rgba(0,0,0,0);
+}
+
+.dropdown-menu li a:hover {
+background-color: #fff;
+}
+
+#allheaders {
+min-height: 250px;
+}
+
+.header-all{
+top:60%!important;
+}
+
+.halfpad {
+padding-top:60px;
+}
+
+.titlepad {
+padding: 60px 0 0 0;
+}
+
+.hrpad {
+padding-bottom: 40px;
+}
+
+ footer {
+	padding:100px 0px;
+  background-image: url(../images/bbblur.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  }
+  
+ #footertext  {
+ font-size: 10px;
+ padding: 15px 0px;
+ margin: 0px;
+ float: left;
+ }
+ 
+ #footright {
+ font-size: 10px;
+ float: right;
+ padding: 15px 0px;
+ margin: 0px;
+ }
+ 
+ .stbg {
+ background: rgba(0,0,0,0.5);
+ }
+
+  #about {
+	padding:60px 0px;
+  background-image: url(../images/im3.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  }
+  
+ .bg-grey {
+ background-color: #f5f5f5;
+ color: #4D4D4D;
+ }
+ 
+ .startcap {
+  font-size: 50px;
+  padding: 2px;
+  float: left;
+  line-height: 0.9em;
+ }
+ 
+ .minpad {
+  padding: 20px 0px 70px 0px;
+   }
+   
+ footer, #tabs, #people {
+ padding: 60px 0px;
+ }
+ 
+.caption p{
+font-size:14px;
+line-height: 1.4;
+}
+
+ 
+ .thumbnail img {
+ height: 150px;
+ margin-top: 25px;
+ }
+ 
+#logo {
+width: 50px;
+float: left;
+margin-top: -14px;
+}
+
+.header-content-inner  h1, .header-content-inner  p  {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+}
+
+#footright img {
+width: 100px;
+background-color:white;
+}
+
+#timetable {
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.thumbnail .glyphicon {
+font-size: 60px;
+padding: 0px;
+color: #f05f40;
+padding-top: 10px;
+}
+
+.thumbnail {
+border: none;
+border-top: 1px solid #DDD;
+border-radius: 0px;
+}
+
+.smallfont {
+font-size: 14px;
+}
+
+.little {
+font-size: 14px;
+}
+
+object {
+height: 600px;
+}
+
+.m3m .thumbnail {
+transition: all 0.5s;
+}
+
+.m3m  p{
+text-decoration: underline;
+color: #f05f40;
+}
+
+.m3m:hover p{
+text-decoration: none;
+}
+
+.m3m:hover  .thumbnail {
+background-color: rgba(10,10,0,0.1);
+}
+
+/* style for the m3mb3ers section stance guide timeline */
+
+.timeline {
+    position: relative;
+    padding:4px 0 0 0;
+    margin-top:22px;
+    list-style: none;
+}
+
+.timeline>li:nth-child(even) {
+    position: relative;
+    margin-bottom: 50px;
+    height: 180px;
+    right:-100px;
+}
+
+.timeline>li:nth-child(odd) {
+    position: relative;
+    margin-bottom: 50px;
+    height: 180px;
+    left:-100px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+    min-height: 170px;
+}
+
+.timeline > li .timeline-panel {
+  position: relative;
+  float: left;
+  width: 41%;
+  padding: 0 20px 20px 30px;
+  text-align: right;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    border: 7px solid #f05f40;
+    border-radius: 100%;
+    background-color: #f05f40;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+}
+
+.timeline>li .timeline-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+  margin-top:22px;
+    margin-bottom: 4px;
+    padding:0;
+}
+
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0;
+    color:#808080;
+}
+/*Style for even div.line*/
+.timeline>li:nth-child(odd) .line:before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 690px;
+    width: 4px;
+    height:340px;
+    background-color: #f05f40;
+    -ms-transform: rotate(-44deg); /* IE 9 */
+    -webkit-transform: rotate(-44deg); /* Safari */
+    transform: rotate(-44deg);
+
+}
+/*Style for odd div.line*/
+.timeline>li:nth-child(even) .line:before  {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 450px;
+    width: 4px;
+    height:340px;
+    background-color: #f05f40;
+    -ms-transform: rotate(44deg); /* IE 9 */
+    -webkit-transform: rotate(44deg); /* Safari */
+    transform: rotate(44deg);
+
+}
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.smallfont  {
+font-size: 12px;
+}
+
+  .timeline > li:nth-child(even) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    right: 0px;
+  }
+  .timeline > li:nth-child(odd) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    left: 0px;
+  }
+  .timeline>li:nth-child(even) .timeline-image {
+    left: 0;
+    margin-left: 0px;
+  }
+  .timeline>li:nth-child(odd) .timeline-image {
+    left: 690px;
+    margin-left: 0px;
+  }
+  .timeline > li:nth-child(even) .timeline-panel {
+    width: 76%;
+    padding: 0 0 20px 0px;
+    text-align: left;
+  }
+  .timeline > li:nth-child(odd) .timeline-panel {
+    width: 70%;
+    padding: 0 0 20px 0px;
+    text-align: right;
+  }
+  .timeline > li .line {
+    display: none;
+  }
+}
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.smallfont  {
+font-size: 11px;
+}
+  .timeline > li:nth-child(even) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    right: 0px;
+  }
+  .timeline > li:nth-child(odd) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    left: 0px;
+  }
+  .timeline>li:nth-child(even) .timeline-image {
+    left: 0;
+    margin-left: 0px;
+  }
+  .timeline>li:nth-child(odd) .timeline-image {
+    left: 520px;
+    margin-left: 0px;
+  }
+  .timeline > li:nth-child(even) .timeline-panel {
+    width: 70%;
+    padding: 0 0 20px 0px;
+    text-align: left;
+  }
+  .timeline > li:nth-child(odd) .timeline-panel {
+    width: 70%;
+    padding: 0 0 20px 0px;
+    text-align: right;
+  }
+  .timeline > li .line {
+    display: none;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+
+.smallfont  {
+font-size: 11px;
+}
+  .timeline > li:nth-child(even) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    right: 0px;
+  }
+  .timeline > li:nth-child(odd) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    left: 0px;
+  }
+  .timeline>li .timeline-image {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin-bottom:0px;
+  }
+  .timeline>li:nth-child(even) .timeline-image {
+    left: 0;
+    margin-left: 0;
+  }
+  .timeline>li:nth-child(odd) .timeline-image {
+    float:right;
+    left: 0px;
+    margin-left:0;
+  }
+  .timeline > li:nth-child(even) .timeline-panel {
+    width: 100%;
+    padding: 0 0 20px 14px;
+  }
+  .timeline > li:nth-child(odd) .timeline-panel {
+    width: 100%;
+    padding: 0 14px 20px 0px;
+  }
+  .timeline > li .line {
+    display: none;
+  }
+}
